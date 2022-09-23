@@ -1,34 +1,38 @@
-body{
-    background-color: rgb(219, 219, 216);
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-main{
-    
-   
-    background-color: rgb(197, 19, 19);
-    
-}
-nav{
-    display: flex;
-    justify-content: end;
-    margin-right: 30px;
+body {
+  background-color: rgb(219, 219, 216);
 }
 
-nav ul li{
-    list-style: none;
-    display: inline-flex;
-    justify-content: right;
-    padding: 8px;
-    
-
+nav {
+  background-color: rgb(197, 19, 19);
+  height: 80px;
 }
-nav ul li a{
-    color: white;
-}
-nav ul li a:hover{
-    color: blue;
+nav {
+  display: flex;
+  justify-content: end;
 }
 
-h1{
-    text-align: center;
+nav ul li {
+  list-style: none;
+  display: inline-flex;
+  justify-content: right;
+  
+  padding: 20px;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: white;
+  font-size: x-large;
+}
+nav ul li a:hover {
+  color: blue;
+}
+
+h1 {
+  text-align: center;
 }
