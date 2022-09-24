@@ -5,7 +5,7 @@ const hbs = require("express-handlebars").create({
 
 const homeControler = require("./controlers/homeControler");
 const catalogControler = require("./controlers/catalogControler");
-
+const createControler = require('./controlers/createControler')
 const errorControler = require("./controlers/errorControler");
 
 const app = express();
@@ -19,6 +19,7 @@ app.use(homeControler);
 app.use("/about", homeControler);
 app.use("/catalog", catalogControler);
 app.use("/catalog/:id", catalogControler);
+app.use('/create', createControler)
 
 app.all("*", errorControler);
 

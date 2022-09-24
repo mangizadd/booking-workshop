@@ -15,6 +15,7 @@ nav {
 nav {
   display: flex;
   justify-content: end;
+
 }
 
 nav ul li {
@@ -35,4 +36,13 @@ nav ul li a:hover {
 
 h1 {
   text-align: center;
+}
+
+main{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: beige;
+}
+p{
+    padding: 20px;
 }
