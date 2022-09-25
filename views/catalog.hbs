@@ -1,2 +1,15 @@
 <h1>Catalog</h1>
 <p>List of items</p>
+<section id="ul">
+
+<ul>
+    {{#each products}}
+    <li>{{name}} {{lastName}} --- Age: {{age}}
+    <p>City: {{city}} , Country:  {{country}}</p>
+   
+    <a href="/catalog/{{id}}">Details</a>
+    <a href="/delete">Delete</a></li>
+    {{/each}}
+</ul>
+
+</section>
